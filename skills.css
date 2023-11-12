@@ -24,7 +24,7 @@
     justify-content: end;
     padding-right: 70px;
     padding-top: 34px;
-    overflow: auto;
+    overflow: none;
 
 }
 
@@ -58,7 +58,6 @@ a:visited{
 
 .skills{
 
-    margin-bottom: 100px;
     padding: 150px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -194,3 +193,66 @@ h3{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+.contact{
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    gap: 20px;
+    background-color: rgb(85, 84, 84);
+
+}
+
+
+
+.personal{
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+
+}
+
+
+li{
+
+    transition: transform 0.3s;
+
+}
+
+li:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+address{
+
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.phone{
+
+    padding-left: 42%;
+    color: black;
+
+}
+
+.num:hover{
+
+    text-decoration: underline;
+
+}

@@ -53,78 +53,63 @@ a:visited{
 
 
 
-.about_cse{
 
-    padding: 30px;
+
+
+
+
+.education{
+
     display: flex;
-    gap: 50px;
-    background-color: rgb(119, 113, 113);
-    color: white;
-
-}
-
-.name_and_cse{
-
-    text-align: center;
-    padding-top: 140px;
-
-}
-
-h1{
-
-    color: black;
-    font-size: 48px;
-
-}
-
-.img1{
-
-    border: 2px;
-    border-radius: 50%;
-    padding-top: 10px;
-
-}
-
-
-
-
-
-
-
-
-
-.img2{
-
-    border: 2px solid rgb(119, 113, 113);
-    border-radius: 50%;
-
-}
-
-.about_me{
-
-
+    gap: 80px;
     padding: 30px;
-    display: flex;
-    gap: 50px;
-    background-color: rgb(119, 113, 113);
-    color:white;
-    gap: 50px;
-}
-
-h3{
-
-    color: black;
-    font-size: 40px;
+    justify-content: center;
+    background-image: url(images/education_logo.jpg);
+    background-size: auto;
 
 }
 
-.introduction{
+.school{
 
+    border: 1px;
+    background-color: #214761;
     text-align: center;
-    padding-top: 90px;
-    
+    padding: 30px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
 
 }
+
+.college{
+
+    border: 1px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+
+}
+
+.university{
+
+    border: 1px;
+    background-color: rgb(207, 167, 91);
+    text-align: center;
+    padding: 30px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -186,6 +171,3 @@ address{
     text-decoration: underline;
 
 }
-
-
-
