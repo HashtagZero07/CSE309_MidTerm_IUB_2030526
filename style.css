@@ -18,7 +18,7 @@
 .nav_bar{
    
     display: flex;
-    gap:20px;
+    gap:50px;
     text-decoration: none;
     list-style: none;
     justify-content: end;
@@ -54,13 +54,11 @@ a:visited{
 
 .about_cse{
 
-    border: 2px solid black;
-    margin-top: 250px;
     padding: 30px;
     display: flex;
     gap: 50px;
     background-color: rgb(119, 113, 113);
-    color:white
+    color: white;
 
 }
 
@@ -80,7 +78,7 @@ h1{
 
 .img1{
 
-    border: 2px solid rgb(119, 113, 113);
+    border: 2px;
     border-radius: 50%;
     padding-top: 10px;
 
@@ -99,8 +97,7 @@ h1{
 
 .about_me{
 
-    border: 2px solid black;
-    margin-top: 250px;
+
     padding: 30px;
     display: flex;
     gap: 50px;

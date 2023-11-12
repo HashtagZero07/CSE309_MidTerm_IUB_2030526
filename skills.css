@@ -18,12 +18,12 @@
 .nav_bar{
    
     display: flex;
-    gap:20px;
+    gap:50px;
     text-decoration: none;
     list-style: none;
     justify-content: end;
     padding-right: 70px;
-    padding-top: 32px;
+    padding-top: 34px;
     overflow: auto;
 
 }
@@ -51,23 +51,146 @@ a:visited{
 
 
 
+
+
+
+
+
 .skills{
 
-    margin-top: 100px;
     margin-bottom: 100px;
     padding: 150px;
-    border: 2px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     row-gap: 100px;
+    background-image: url(images/skill_background.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 
 .c{
+
+
+    box-shadow: 3px grey;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #B9ECE6;
+    box-shadow: 10px 10px 10px grey;
+    transition: transform 0.3s;
+    
+}
+
+
+.c:hover{
+
+    transform: scale(1.1);
+
+}
+
+.c_plus{
+
+
+    box-shadow: 3px grey;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #B9ECE6;
+    box-shadow: 10px 10px 10px grey;
+    transition: transform 0.3s;
+
+}
+
+.c_plus:hover{
+
+    transform: scale(1.1);
+
+}
+
+.dbms{
+
+
+    box-shadow: 3px grey;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #B9ECE6;
+    box-shadow: 10px 10px 10px grey;
+    transition: transform 0.3s;
+
+}
+
+.dbms:hover{
+
+    transform: scale(1.1);
+
+}
+
+.html{
+
+
+    box-shadow: 3px grey;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #B9ECE6;
+    box-shadow: 10px 10px 10px grey;
+    transition: transform 0.3s;
+
+
+}
+
+.html:hover{
+
+    transform: scale(1.1);
+
+}
+
+.css{
+
+
+    box-shadow: 3px grey;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #B9ECE6;
+    box-shadow: 10px 10px 10px grey;
+    transition: transform 0.3s;
+
+}
+
+.css:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.java{
 
     border: 0.5px solid black;
     box-shadow: 3px grey;
     border-radius: 5px;
     padding: 10px;
+    text-align: center;
+    background-color: #B9ECE6;
+    box-shadow: 10px 10px 10px grey;
+    transition: transform 0.3s;
 
 }
+
+.java:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+h3{
+
+    padding-top: 20px;
+
+}
+
