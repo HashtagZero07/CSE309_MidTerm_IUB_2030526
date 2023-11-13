@@ -173,38 +173,97 @@ address{
 
 }
 
-.phone{
-
-    padding-left: 42%;
-    color: black;
-
-}
-
-
-.num:hover{
-
-    text-decoration: underline;
-
-}
 
 
 
 
-@media screen and (min-width: 200px) and (max-width: 768px) {
 
-    .nav_and_signature{
+@media screen and (max-width: 890px){
 
-        width: 100%;
+    .about_cse{
+
+        display: flex;
         flex-direction: column;
 
     }
 
+}
+
+h1{
+
+    font-size: 30px;
+
+}
+
+
+
+@media screen and (max-width: 890px) {
+
+    .nav_and_signature{
+
+        display: flex;
+        flex-direction: column;
+
+    }    
+
+}
+
+@media screen and (max-width: 890px){
+
+
     .img1{
 
-        max-width: 100%;
-        height: auto;
+        max-width: 350px;
 
     }
 
+}
+
+
+@media screen and (max-width: 890px){
+
+    .nav_bar{
+
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+        padding-left: 50px;
+
+    }
 
 }
+
+@media screen and (max-width: 890px){
+
+    .about_me{
+
+        flex-direction: column;
+
+    }
+
+}
+
+
+@media screen and (max-width: 890px){
+
+    .img2{
+
+        max-width: 350px;
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (max-width: 890px){
+    
+    address{
+
+        text-align: center;
+
+    }
+
+}
+
+
+
