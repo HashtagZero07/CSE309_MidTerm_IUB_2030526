@@ -158,16 +158,107 @@ address{
 
 }
 
-.phone{
 
-    padding-left: 42%;
-    color: black;
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+    .signature{
+
+        width: 100%;
+
+    }
 
 }
 
 
-.num:hover{
+@media screen and (max-width: 890px){
+    
+    address{
 
-    text-decoration: underline;
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (max-width: 890px){
+
+    .nav_bar{
+
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+        padding-left: 50px;
+
+    }
+
+}
+
+@media screen and (max-width: 890px) {
+
+    .nav_and_signature{
+
+        display: flex;
+        flex-direction: column;
+
+    }    
+
+}
+
+
+@media screen and (max-width: 890px) {
+
+    .education{
+
+        flex-direction: column;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 890px) {
+
+    .school{
+
+        
+        max-width: 400px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 890px) {
+
+    .college{
+
+        
+        max-width: 400px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 890px) {
+
+    .university{
+
+        
+        max-width: 400px;
+
+    }
+
 
 }
